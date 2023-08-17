@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_musalsou_counterapp_StartPage">
+    <xs:complexContent>
+      <xs:extension base="com_musalsou_counterapp_AbstractStartPage">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_musalsou_counterapp_StartPage-impl">
+    <xs:complexContent>
+      <xs:extension base="com_musalsou_counterapp_StartPage"/>
+    </xs:complexContent>
+  </xs:complexType>

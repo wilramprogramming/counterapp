@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<y style.bgColor="0xffffff" style.bgTransparency="0xff" safeArea="true" scrollableY="true" style.paddingLeft="5vw" style.paddingRight="5vw" style.paddingTop="5vw" style.paddingBottom="5vw"
+   xsi:noNamespaceSchemaLocation="StartPage.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title hidden="true"/>
+
+
+    <spanLabel textUIID="StartPageText" style.marginBottom="1rem">Login</spanLabel>
+
+    <spanLabel textUIID="StartPageText">Username:</spanLabel>
+    <spanLabel  textUIID="StartPageText">Password:</spanLabel>
+
+
+
+</y>

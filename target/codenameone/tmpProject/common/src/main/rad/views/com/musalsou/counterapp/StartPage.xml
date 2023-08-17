@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<y style.bgColor="0xffffff" style.bgTransparency="0xff" safeArea="true" scrollableY="true" style.paddingLeft="5vw" style.paddingRight="5vw" style.paddingTop="5vw" style.paddingBottom="5vw"
+   xsi:noNamespaceSchemaLocation="StartPage.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title hidden="true"/>
+
+    <center style.marginBottom="2rem">
+        <label icon="https://www.codenameone.com/wp-content/uploads/2020/08/footer-logo.png height:25vh; aspect:1.5; scale:fit"/>
+    </center>
+
+
+    <spanLabel textUIID="StartPageText" style.marginBottom="1rem">This is the CodeRAD2 starter template for building native mobile apps in Java and Kotlin</spanLabel>
+
+    <spanLabel textUIID="StartPageText">CodeRAD is an MVC framework for Codename One that will help to build better, more maintainable apps in less time.</spanLabel>
+
+    <button rad-href="https://shannah.github.io/CodeRAD/manual _blank">Learn more</button>
+
+    <label uiid="StartPageH2">Source Code Overview</label>
+
+    <spanLabel textUIID="StartPageText">This template is barebones, consisting of one view, one controller, and a stylesheet.</spanLabel>
+
+
+    <button uiid="StartPageLink"
+            materialIcon="FontImage.MATERIAL_ARROW_RIGHT"
+            textPosition="Component.LEFT"
+            rad-href="https://github.com/shannah/coderad2-starter-template/blob/master/common/src/main/rad/views/com/example/myapp/StartPage.xml _blank">See "View" source</button>
+    <button uiid="StartPageLink"
+            materialIcon="FontImage.MATERIAL_ARROW_RIGHT"
+            textPosition="Component.LEFT"
+            rad-href="https://github.com/shannah/coderad2-starter-template/blob/master/common/src/main/java/com/example/myapp/MyRADApp.java _blank">See "Controller" source</button>
+    <button uiid="StartPageLink"
+            materialIcon="FontImage.MATERIAL_ARROW_RIGHT"
+            textPosition="Component.LEFT"
+            rad-href="https://github.com/shannah/coderad2-starter-template/blob/master/common/src/main/css/theme.css _blank">See Stylesheet source</button>
+</y>
